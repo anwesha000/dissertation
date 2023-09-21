@@ -136,8 +136,3 @@ cfg.layout       = 'CTF275_helmet.mat';
 figure
 ft_singleplotTFR(cfg, TFRhann);
 
-
-grandavg_young  = ft_freqgrandaverage(cfg, data_young{1}, data_young{2}, data_young{3}, data_young{4}, data_young{5},data_young{6},data_young{7},data_young{8},data_young{9},data_young{10},data_young{11},data_young{12},data_young{13},data_young{14},data_young{15},data_young{16},data_young{17},data_young{18},data_young{19},data_young{20},data_young{21},data_young{22},data_young{23},data_young{24}); % grand average data - young group: change this to add more participants
-grandavg_old    = ft_freqgrandaverage(cfg, data_old{1}, data_old{2}, data_old{3}, data_old{4}, data_old{5}, data_old{6}, data_old{7}, data_old{8}, data_old{9}, data_old{10}, data_old{11}, data_old{12}, data_old{13}, data_old{14}, data_old{15}, data_old{16}); % grand average data - old group: change this to add more participants
-
-'MRO22', 'MRO32', 'MRO33'
